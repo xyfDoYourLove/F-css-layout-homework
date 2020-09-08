@@ -22,6 +22,15 @@ ul {
 .header {
   background-color: #262626;
   color: white;
+  min-height: 40px;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+.nav-links {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content {
