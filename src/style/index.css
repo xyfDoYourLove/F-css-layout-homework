@@ -79,6 +79,10 @@ ul {
   outline: none;
 }
 
+.email::placeholder {
+  padding-left: 5px;
+}
+
 .password {
   border-radius: 0px 0px 5px 5px;
   border: 1px solid #d0d6dc;
@@ -87,6 +91,10 @@ ul {
   height: 35px;
   margin-bottom: 10px;
   outline: none;
+}
+
+.password::placeholder {
+  padding-left: 5px;
 }
 
 .login .lable {
