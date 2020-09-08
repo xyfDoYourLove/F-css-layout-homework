@@ -18,3 +18,24 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-color: #262626;
+  color: white;
+}
+
+.content {
+  display: flex;
+}
+
+.left {
+  flex-basis: 20%;
+}
+
+.center {
+  flex-grow: 1;
+}
+
+.right {
+  flex-basis: 20%;
+}
